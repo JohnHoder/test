@@ -28,15 +28,15 @@ fi
 
 if [ ! -z "$GERRIT_CHANGES" ]
 then
-  git clone git://github.com/erikcas/hudson.git
+  curl -O https://raw.github.com/erikcas/hudson/master/repopick.py
   export CM_EXPERIMENTAL=true
   IS_HTTP=$(echo $GERRIT_CHANGES | grep http)
   if [ -z "$IS_HTTP" ]
   then
-    python $WORKSPACE/hudson/repopick.py $GERRIT_CHANGES
+    python repopick.py $GERRIT_CHANGES
     check_result "gerrit picks failed."
   else
-    python $WORKSPACE/hudson/repopick.py $(curl $GERRIT_CHANGES)
+    python repopick.py $(curl $GERRIT_CHANGES)
     check_result "gerrit picks failed."
   fi
 fi
