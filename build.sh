@@ -42,3 +42,5 @@ then
 fi
 
 . build/envsetup.sh && brunch $device
+
+echo Doner Kebab!!!!
