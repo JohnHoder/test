@@ -4,6 +4,7 @@ repo sync -d -c -f -j64
 
 if [ ! -z "$GERRIT_CHANGES" ]
 then
+  git clone git://github.com/erikcas/hudson.git
   export CM_EXPERIMENTAL=true
   IS_HTTP=$(echo $GERRIT_CHANGES | grep http)
   if [ -z "$IS_HTTP" ]
