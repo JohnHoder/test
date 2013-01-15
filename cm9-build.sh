@@ -43,6 +43,6 @@ fi
 
 vendor/cm/get-prebuilts
 
-. build/envsetup.sh && brunch $DEVICE
+. build/envsetup.sh && brunch $LUNCH
 
 echo Doner Kebab!!!!
