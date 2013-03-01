@@ -41,8 +41,6 @@ then
   fi
 fi
 
-prebuilts/misc/linux-x86/ccache/ccache -M 50G
-
 vendor/cm/get-prebuilts
 
 . build/envsetup.sh && brunch $device
