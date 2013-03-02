@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-repo sync -d -c -f -j64
+repo sync -d -c -f -j `cat /proc/cpuinfo | grep "^processor" | wc -l` "$@"
 
 if [ "$RELEASE_TYPE" = "CM_NIGHTLY" ]
 then
