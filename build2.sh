@@ -45,4 +45,4 @@ prebuilts/misc/linux-x86/ccache/ccache -M 50G
 
 . build/envsetup.sh && brunch $device
 
-echo Johan Cruiff!!!! The best ever!!!
+echo Johan Cruijff!!!! The best ever!!!
