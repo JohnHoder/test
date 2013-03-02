@@ -45,4 +45,4 @@ vendor/cm/get-prebuilts
 
 . build/envsetup.sh && brunch $device
 
-echo Doner Kebab!!!!
+echo Johan Cruijff!!!! The best ever!!!
