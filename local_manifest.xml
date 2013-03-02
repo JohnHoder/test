@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project path="vendor/samsung" name="androidarmv6/android_vendor_samsung" />
-  <project path="vendor/lge" name="androidarmv6/android_vendor_lge" />
-  <project path="vendor/zte" name="androidarmv6/proprietary_vendor_zte" />
-  <project path="vendor/semc" name="androidarmv6/android_vendor_semc" />
-  <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" />
-</manifest>
