@@ -42,6 +42,7 @@ then
 fi
 
 vendor/cm/get-prebuilts
+echo Applying ldpi-patches
 device/samsung/$device/patches/install.sh
 
 . build/envsetup.sh && brunch $device
