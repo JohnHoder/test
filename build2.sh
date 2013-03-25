@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-repo sync -d -c -f -j `cat /proc/cpuinfo | grep "^processor" | wc -l` "$@"
+repo sync -d -c -f -j64
 
 if [ "$RELEASE_TYPE" = "CM_NIGHTLY" ]
 then
@@ -41,7 +41,8 @@ then
   fi
 fi
 
-prebuilts/misc/linux-x86/ccache/ccache -M 50G
+vendor/cm/get-prebuilts
+device/samsung/$device/patches/install.sh
 
 . build/envsetup.sh && brunch $device
 
