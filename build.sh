@@ -44,7 +44,7 @@ fi
 vendor/cm/get-prebuilts
 echo Apply ldpi data usage border patch
 cd packages/apps/Settings
-git cherry-pick 020b49f37e90b997143704788c825d6d194ef68f
+git cherry-pick f2ea13078339498fdb13c971be61ccce1af09a19
 cd ../../../
 
 . build/envsetup.sh && brunch $device
