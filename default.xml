@@ -98,7 +98,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
+<!--  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />-->
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.1" />
@@ -391,7 +391,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
+<!--  <project path="system/bluetooth" name="platform/system/bluetooth" />-->
 <!--  <project path="system/core" name="AOKP/system_core" remote="aokp" revision="jb-mr1" />-->
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb-mr1" />
   <project path="system/media" name="platform/system/media" />
