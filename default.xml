@@ -20,6 +20,10 @@
            fetch="http://gitlab.cas-online.nl/erikcas/"
            review="review.cas-online.nl:8181" />
 
+  <remote  name="caf"
+           fetch="git://codeaurora.org/"
+           review="codeaurora.org" />
+
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -418,4 +422,71 @@
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
 <!--  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr1" />-->
+
+  <project path="build" name="legacy-aokp/build" remote="aokp" revision="jb-mr1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="aokp" revision="cm-10.1" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="aokp" revision="cm-10.1" />
+  <project path="development" name="androidarmv6/android_development" remote="aokp" revision="cm-10.1" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" remote="caf" revision="jb_2.5" groups="default" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="caf" revision="jb_2.5" groups="default" />
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="caf" revision="jb_2.5" groups="default" />
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="caf" revision="jb_2.5" groups="default" />
+<!--  <project path="external/dbus" name="androidarmv6/android_external_dbus" remote="aokp" revision="cm-10.1" />-->
+  <project path="external/libncurses" name="androidarmv6/android_external_libncurses" remote="aokp" revision="cm-10.1" />
+  <project path="external/wpa_supplicant_8" name="androidarmv6/android_external_wpa_supplicant_8" remote="aokp" revision="cm-10.1" />
+  <project path="external/jbirdvegas/mGerrit" name="external_jbirdvegas_mGerrit" remote="AOKPlegacy" revision="master" />
+  <project path="external/srec" name="erikcas/platform_external_srec" remote="aokp" revision="jb-mr1" />
+  <project path="frameworks/av" name="legacy-aokp/frameworks_av" remote="aokp" revision="jb-mr1" />
+  <project path="frameworks/base" name="legacy-aokp/frameworks_base" remote="aokp" revision="jb-mr1" />
+  <project path="frameworks/native" name="legacy-aokp/frameworks_native" remote="aokp" revision="jb-mr1" />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/broadcom/fmradio" name="androidarmv6/android_hardware_broadcom_fmradio" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/gps" name="androidarmv6/android_hardware_qcom_gps" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/media_legacy" name="androidarmv6/android_hardware_qcom_media_legacy" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/ar6k" name="erikcas/android_hardware_ar6k" remote="aokp" revision="jb-mr1" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="aokp" revision="cm-10.1"/>
+  <project path="libcore" name="CyanogenMod/android_libcore" remote="aokp" revision="cm-10.1" />
+  <project path="system/bluetooth" name="androidarmv6/android_system_bluetooth" remote="aokp" revision="cm-10.1" />
+  <project path="system/core" name="legacy-aokp/android_system_core" remote="aokp" revision="jb-mr1" />
+  <project path="system/netd" name="androidarmv6/android_system_netd" remote="aokp" revision="cm-10.1" />
+  <project path="packages/apps/Settings" name="legacy-aokp/android_packages_apps_Settings" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Effem" name="androidarmv6/android_packages_apps_Effem" remote="aokp" revision="master" />
+  <project path="packages/apps/Bluetooth" name="androidarmv6/android_packages_apps_Bluetooth" remote="aokp" revision="cm-10.1" />
+  <project path="packages/apps/Bluetooth_msm" name="androidarmv6/android_packages_apps_Bluetooth_msm" remote="aokp" revision="cm-10.1" />
+<!--Legacy devices go here-->
+  <project path="device/samsung/gio" name="legacy-aokp/android_device_samsung_gio" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/cooper" name="erikcas/android_device_samsung_cooper" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/beni" name="erikcas/android_device_samsung_beni" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/tass" name="erikcas/android_device_samsung_tass" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/galaxy5" name="erikcas/android_device_samsung_galaxy5" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/msm7x27-common" name="erikcas/android_device_samsung_msm7x27-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/qcom/msm7x27" name="erikcas/android_device_qcom_msm7x27" remote="aokp" revision="jb-mr1" />
+  <project path="device/mdpi-common" name="androidarmv6/android_device_mdpi-common" remote="aokp" revision="cm-10.1" />
+  <project path="device/ldpi-common" name="erikcas/android_device_ldpi-common" remote="aokp" revision="jb-mr1" />
+<!--Kernel goes here-->
+  <project path="kernel/samsung/msm7x27" name="erikcas/android_gio_stock_kernel" remote="aokp" revision="cm-10.1" />
+
+<!--Vendor goes here-->
+  <project path="vendor/aokp" name="legacy-aokp/vendor_aokp" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/samsung" name="erikcas/android_vendor_samsung" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" remote="aokp" revision="cm-10.1" />
+  <project path="vendor/google" name="erikcas/android_vendor_google" remote="aokp" revision="cm-10.1" />
+</manifest>
 </manifest>
