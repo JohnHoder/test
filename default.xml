@@ -113,7 +113,7 @@
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="platform/external/clang" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
-  <project path="external/dbus" name="platform/external/dbus" />
+<!--  <project path="external/dbus" name="platform/external/dbus" />-->
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb-mr1" />
@@ -434,7 +434,7 @@
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="caf" revision="jb_2.5" groups="default" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="caf" revision="jb_2.5" groups="default" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="caf" revision="jb_2.5" groups="default" />
-<!--  <project path="external/dbus" name="androidarmv6/android_external_dbus" remote="aokp" revision="cm-10.1" />-->
+  <project path="external/dbus" name="androidarmv6/android_external_dbus" remote="aokp" revision="cm-10.1" />
   <project path="external/libncurses" name="androidarmv6/android_external_libncurses" remote="aokp" revision="cm-10.1" />
   <project path="external/wpa_supplicant_8" name="androidarmv6/android_external_wpa_supplicant_8" remote="aokp" revision="cm-10.1" />
   <project path="external/jbirdvegas/mGerrit" name="legacy-aokp/external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
