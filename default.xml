@@ -437,7 +437,7 @@
 <!--  <project path="external/dbus" name="androidarmv6/android_external_dbus" remote="aokp" revision="cm-10.1" />-->
   <project path="external/libncurses" name="androidarmv6/android_external_libncurses" remote="aokp" revision="cm-10.1" />
   <project path="external/wpa_supplicant_8" name="androidarmv6/android_external_wpa_supplicant_8" remote="aokp" revision="cm-10.1" />
-  <project path="external/jbirdvegas/mGerrit" name="external_jbirdvegas_mGerrit" remote="AOKPlegacy" revision="master" />
+  <project path="external/jbirdvegas/mGerrit" name="aokp-legacy/external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
   <project path="external/srec" name="erikcas/platform_external_srec" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/av" name="legacy-aokp/frameworks_av" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/base" name="legacy-aokp/frameworks_base" remote="aokp" revision="jb-mr1" />
