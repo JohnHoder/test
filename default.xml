@@ -270,7 +270,7 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
 <!--  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />-->
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
+<!--  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />-->
   <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
@@ -443,6 +443,7 @@
   <project path="frameworks/base" name="legacy-aokp/frameworks_base" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/native" name="legacy-aokp/frameworks_native" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="aokp" revision="cm-10.1" />
+  <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="aokp" revision="cm-10.1" />
   <project path="hardware/broadcom/fmradio" name="androidarmv6/android_hardware_broadcom_fmradio" remote="aokp" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" remote="aokp" revision="cm-10.1" />
   <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" remote="aokp" revision="cm-10.1" />
