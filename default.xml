@@ -466,6 +466,7 @@
   <project path="system/bluetooth" name="androidarmv6/android_system_bluetooth" remote="aokp" revision="cm-10.1" />
   <project path="system/core" name="legacy-aokp/android_system_core" remote="aokp" revision="jb-mr1" />
   <project path="system/netd" name="androidarmv6/android_system_netd" remote="aokp" revision="cm-10.1" />
+  <project path="packages/apps/DSPManager" name="legacy-aokp/android_packages_apps_DSPManager" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Settings" name="legacy-aokp/android_packages_apps_Settings" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Effem" name="androidarmv6/android_packages_apps_Effem" remote="aokp" revision="master" />
   <project path="packages/apps/Bluetooth" name="androidarmv6/android_packages_apps_Bluetooth" remote="aokp" revision="cm-10.1" />
