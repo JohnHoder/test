@@ -489,4 +489,3 @@
   <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" remote="aokp" revision="cm-10.1" />
   <project path="vendor/google" name="erikcas/android_vendor_google" remote="aokp" revision="cm-10.1" />
 </manifest>
-</manifest>
