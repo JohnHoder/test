@@ -479,7 +479,7 @@
   <project path="device/samsung/beni" name="erikcas/android_device_samsung_beni" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/tass" name="erikcas/android_device_samsung_tass" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/galaxy5" name="erikcas/android_device_samsung_galaxy5" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/msm7x27-common" name="erikcas/android_device_samsung_msm7x27-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/msm7x27-common" name="legacy-aokp/android_device_samsung_msm7x27-common" remote="aokp" revision="jb-mr1" />
   <project path="device/qcom/msm7x27" name="legacy-aokp/android_device_qcom_msm7x27" remote="aokp" revision="jb-mr1" />
   <project path="device/mdpi-common" name="androidarmv6/android_device_mdpi-common" remote="aokp" revision="cm-10.1" />
   <project path="device/ldpi-common" name="erikcas/android_device_ldpi-common" remote="aokp" revision="jb-mr1" />
