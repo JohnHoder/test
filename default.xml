@@ -462,6 +462,7 @@
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/atheros/ath6kl-compat" name="erikcas/android_hardware_atheros_ath6kl-compat" remote="aokp" revision="ics-plus" />
 <!--  <project path="hardware/ar6k" name="erikcas/android_hardware_ar6k" remote="aokp" revision="jb-mr1" />-->
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="aokp" revision="cm-10.1"/>
   <project path="libcore" name="CyanogenMod/android_libcore" remote="aokp" revision="cm-10.1" />
