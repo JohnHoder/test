@@ -488,7 +488,7 @@
   <project path="kernel/samsung/msm7x27" name="erikcas/android_gio_stock_kernel" remote="aokp" revision="cm-10.1" />
 
 <!--Vendor goes here-->
-  <project path="vendor/aokp" name="erikcas/vendor_aokp" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/aokp" name="erikcas/vendor_aokp" remote="aokp" revision="jb-mr1-test" />
   <project path="vendor/samsung" name="androidarmv6/android_vendor_samsung" remote="aokp" revision="cm-10.1" />
   <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" remote="aokp" revision="cm-10.1" />
   <project path="vendor/google" name="erikcas/android_vendor_google" remote="aokp" revision="cm-10.1" />
