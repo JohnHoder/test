@@ -57,7 +57,7 @@
   <project path="device/samsung/gio" name="erikcas/android_device_samsung_gio-old" remote="gh" revision="aokp-ics" />
   <project path="device/samsung/beni" name="erikcas/android_device_samsung_beni" remote="gh" revision="aokp-ics" />
   <project path="device/samsung/tass" name="erikcas/android_device_samsung_tass" remote="gh" revision="aokp-ics" />
-  <project path="device/samsung/msm7x27-common" name="erikcas/android_device_samsung_msm7x27-common" remote="gh" revision="ics-plus" />
+  <project path="device/samsung/msm7x27-common" name="erikcas/android_device_samsung_msm7x27-common" remote="gh" revision="aokp-ics" />
 <!--  <project path="device/samsung/aries-common" name="AOKP/device_samsung_aries-common" remote="gh" revision="ics" />
   <project path="device/samsung/captivatemtd" name="AOKP/device_samsung_captivatemtd" remote="gh" revision="ics" />
   <project path="device/samsung/crespo" name="AOKP/device_samsung_crespo" remote="gh" revision="ics" />
