@@ -229,8 +229,8 @@
   <project path="hardware/cm" name="AOKP/hardware_cm" remote="gh" revision="ics" />
   <project path="hardware/broadcom/wlan" name="AOKP/hardware_broadcom_wlan" remote="gh" revision="ics" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="hardware/libhardware" name="erikcas/android_hardware_libhardware_legacy" remote="gh" revision="aokp-ics" />
-  <project path="hardware/libhardware_legacy" name="AOKP/hardware_libhardware_legacy" remote="gh" revision="ics" />
+  <project path="hardware/libhardware_legacy" name="erikcas/android_hardware_libhardware_legacy" remote="gh" revision="aokp-ics" />
+  <project path="hardware/libhardware" name="AOKP/hardware_libhardware" remote="gh" revision="ics" />
   <project path="hardware/qcom/display" name="AOKP/hardware_qcom_display" remote="gh" revision="ics" />
   <project path="hardware/qcom/camera" name="AOKP/hardware_qcom_camera" remote="gh" revision="ics" />
   <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" remote="gh" revision="ics-plus" />
