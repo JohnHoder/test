@@ -243,7 +243,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="hardware/ti/wlan" name="AOKP/hardware_ti_wlan" remote="gh" revision="ics" />
   <project path="hardware/ti/wpan" name="AOKP/hardware_ti_wpan" remote="gh" revision="ics" />
-  <project path="kernel/samsung/msm7x27" name="erikcas/android_gio_stock_kernel" remote="gh" revision="cm-10.2" />
+  <project path="kernel/samsung/msm7x27" name="erikcas/android_gio_stock_kernel" remote="gh" revision="ics" />
   <project path="libcore" name="AOKP/libcore" remote="gh" revision="ics" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
