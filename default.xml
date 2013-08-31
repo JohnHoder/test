@@ -310,7 +310,7 @@
   <project path="system/netd" name="erikcas/android_system_netd" remote="gh" revision="ics-plus"/>
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="ics" />
 
-  <project path="vendor/samsung" name="erikcas/android_vendor_samsung" remote="gh" revision="ics-plus" />
+  <project path="vendor/samsung" name="androidarmv6/android_vendor_samsung" remote="gh" revision="cm-10.1" />
   <project path="vendor/aokp" name="erikcas/vendor_aokp" remote="gh" revision="ics" />
   <project path="vendor/moto" name="AOKP/vendor_moto" remote="gh" revision="ics" />
   <project path="vendor/hp/tenderloin" name="AOKP/vendor_hp_tenderloin" remote="gh" revision="aokp" />
