@@ -486,7 +486,6 @@
 <!-- MSM7X27 ADDS -->
     <!-- CM replacements -->
 <!--    <remove-project name="CyanogenMod/android_build" />-->
-    <remove-project name="CyanogenMod/android_system_bluetooth" />
 <!--    <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />-->
 
     <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" remote="caf" revision="jb_mr1_rb1.40" />
