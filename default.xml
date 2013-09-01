@@ -25,9 +25,6 @@
            remote="aosp"
            sync-j="4" />
 
-<!--  <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr1" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>-->
   <project path="abi/cpp" name="platform/abi/cpp" />
 <!--  <project path="bionic" name="android_bionic" remote="cm" revision="cm-10.1" />-->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -430,7 +427,7 @@
   </project>
 
   <project path="bionic" name="CyanogenMod/android_bionic" remote="aokp" revision="cm-10.1" />
-  <project path="dalvik" name="legacy-aokp/android_dalvik" remote="aokp" />
+  <project path="dalvik" name="legacy-aokp/android_dalvik" remote="aokp" revision="jb-mr1" />
   <project path="development" name="androidarmv6/android_development" remote="aokp" revision="cm-10.1" />
 <!--  <project path="external/dbus" name="androidarmv6/android_external_dbus" remote="aokp" revision="cm-10.1" />-->
   <project path="external/libncurses" name="androidarmv6/android_external_libncurses" remote="aokp" revision="cm-10.1" />
@@ -503,7 +500,7 @@
   <project path="kernel/samsung/msm7x27a" name="erikcas/android_kernel_samsung_msm" remote="aokp" revision="cm-10.1" />
 <!--  <project path="device/qcom/msm7x27" name="androidarmv6/android_device_qcom_msm7x27" />
   <project path="device/samsung/msm7x27-common" name="androidarmv6/android_device_samsung_msm7x27-common" />-->
-  <project path="vendor/samsung" name="erikcas/proprietary_vendor_samsung_msm7x27a" remote="aokp" revision="cm-10.1" />
+  <project path="vendor/samsung" name="TheWhisp/proprietary_vendor_samsung_msm7x27a" remote="aokp" revision="jb-3.0" />
     <project path="vendor/google" name="androidarmv6/android_vendor_google" remote="aokp" revision="cm-10.1" />
 
     <!-- Local projects -->
