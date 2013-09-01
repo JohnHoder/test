@@ -430,12 +430,8 @@
   </project>
 
   <project path="bionic" name="CyanogenMod/android_bionic" remote="aokp" revision="cm-10.1" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="aokp" revision="cm-10.1" />
+  <project path="dalvik" name="legacy-aokp/android_dalvik" remote="aokp" />
   <project path="development" name="androidarmv6/android_development" remote="aokp" revision="cm-10.1" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" remote="caf" revision="jb_2.5" groups="default" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="caf" revision="jb_2.5" groups="default" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="caf" revision="jb_2.5" groups="default" />
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="caf" revision="jb_2.5" groups="default" />
 <!--  <project path="external/dbus" name="androidarmv6/android_external_dbus" remote="aokp" revision="cm-10.1" />-->
   <project path="external/libncurses" name="androidarmv6/android_external_libncurses" remote="aokp" revision="cm-10.1" />
   <project path="external/wpa_supplicant_8" name="androidarmv6/android_external_wpa_supplicant_8" remote="aokp" revision="cm-10.1" />
@@ -453,29 +449,23 @@
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="androidarmv6/android_hardware_qcom_gps" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/media_legacy" name="androidarmv6/android_hardware_qcom_media_legacy" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/atheros/ath6kl-compat" name="erikcas/android_hardware_atheros_ath6kl-compat" remote="aokp" revision="ics-plus" />
-<!--  <project path="hardware/ar6k" name="erikcas/android_hardware_ar6k" remote="aokp" revision="jb-mr1" />-->
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="aokp" revision="cm-10.1"/>
   <project path="libcore" name="CyanogenMod/android_libcore" remote="aokp" revision="cm-10.1" />
-  <project path="system/bluetooth" name="androidarmv6/android_system_bluetooth" remote="aokp" revision="cm-10.1" />
   <project path="system/core" name="legacy-aokp/android_system_core" remote="aokp" revision="jb-mr1" />
   <project path="system/netd" name="androidarmv6/android_system_netd" remote="aokp" revision="cm-10.1" />
   <project path="packages/apps/DSPManager" name="legacy-aokp/android_packages_apps_DSPManager" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Settings" name="legacy-aokp/android_packages_apps_Settings" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Effem" name="androidarmv6/android_packages_apps_Effem" remote="aokp" revision="master" />
-  <project path="packages/apps/Bluetooth" name="androidarmv6/android_packages_apps_Bluetooth" remote="aokp" revision="cm-10.1" />
   <project path="packages/apps/Bluetooth_msm" name="androidarmv6/android_packages_apps_Bluetooth_msm" remote="aokp" revision="cm-10.1" />
-<!--Legacy devices go here-->
+<!--Legacy devices go here
   <project path="device/samsung/gio" name="erikcas/android_device_samsung_gio" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/cooper" name="erikcas/android_device_samsung_cooper" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/beni" name="erikcas/android_device_samsung_beni" remote="aokp" revision="jb-mr1" />
@@ -484,13 +474,51 @@
   <project path="device/samsung/msm7x27-common" name="erikcas/android_device_samsung_msm7x27-common" remote="aokp" revision="jb-mr1" />
   <project path="device/qcom/msm7x27" name="legacy-aokp/android_device_qcom_msm7x27" remote="aokp" revision="jb-mr1" />
   <project path="device/mdpi-common" name="androidarmv6/android_device_mdpi-common" remote="aokp" revision="cm-10.1" />
-  <project path="device/ldpi-common" name="erikcas/android_device_ldpi-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/ldpi-common" name="erikcas/android_device_ldpi-common" remote="aokp" revision="jb-mr1" />-->
 <!--Kernel goes here-->
-  <project path="kernel/samsung/msm7x27" name="erikcas/android_gio_stock_kernel" remote="aokp" revision="cm-10.1" />
+<!--  <project path="kernel/samsung/msm7x27" name="erikcas/android_gio_stock_kernel" remote="aokp" revision="cm-10.1" />-->
 
 <!--Vendor goes here-->
-  <project path="vendor/aokp" name="erikcas/vendor_aokp" remote="aokp" revision="jb-mr1-test" />
-  <project path="vendor/samsung" name="erikcas/android_vendor_samsung-1" remote="aokp" revision="cm-10.1" />
+  <project path="vendor/aokp" name="erikcas/vendor_aokp" remote="aokp" revision="jb-mr1" />
   <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" remote="aokp" revision="cm-10.1" />
   <project path="vendor/google" name="erikcas/android_vendor_google" remote="aokp" revision="cm-10.1" />
+
+<!-- MSM7X27 ADDS -->
+    <!-- CM replacements -->
+<!--    <remove-project name="CyanogenMod/android_build" />-->
+    <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
+    <remove-project name="CyanogenMod/android_system_bluetooth" />
+<!--    <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />-->
+
+    <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" remote="caf" revision="jb_mr1_rb1.40" />
+    <project path="system/bluetooth" name="platform/system/bluetooth" remote="caf" revision="jb_mr1_rb1.40" />
+<!--    <project path="external/wpa_supplicant_8" name="androidarmv6/android_external_wpa_supplicant_8" />-->
+
+    <!-- CAF projects -->
+    <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="caf" revision="jb_mr1_rb1.40" />
+    <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="caf" revision="jb_mr1_rb1.40" />
+    <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="caf" revision="jb_mr1_rb1.40" />
+
+    <!-- Local projects -->
+    <project path="packages/apps/Bluetooth2" name="legaCyMod/android_packages_apps_Bluetooth2" remote="aokp" revision="cm-10.1" />
+
+  <project path="kernel/samsung/msm7x27a" name="erikcas/android_kernel_samsung_msm" remote="aokp" revision="cm-10.1" />
+<!--  <project path="device/qcom/msm7x27" name="androidarmv6/android_device_qcom_msm7x27" />
+  <project path="device/samsung/msm7x27-common" name="androidarmv6/android_device_samsung_msm7x27-common" />-->
+  <project path="vendor/samsung" name="erikcas/proprietary_vendor_samsung_msm7x27a" remote="aokp" revision="cm-10.1" />
+    <project path="vendor/google" name="androidarmv6/android_vendor_google" remote="aokp" revision="cm-10.1" />
+
+    <!-- Local projects -->
+    <project path="hardware/atheros/ath6kl-compat" name="TheWhisp/android_hardware_atheros_ath6kl" remote="aokp" revision="master" />
+    <project path="hardware/atheros/wlan" name="TheWhisp/android_hardware_atheros_wlan" remote="aokp" revision="cm-10.1" />
+    <project path="hardware/qcom/display-legacy" name="legaCyMod/android_hardware_qcom_display-legacy" remote="aokp" revision="cm-10.1" />
+    <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" remote="aokp" revision="cm-10.1" />
+    <project path="hardware/atheros/sdk" name="erikcas/android_hardware_ar6k" remote="aokp" revision="master" />
+<!--    <project path="hardware/atheros/wifi/libs" name="androidarmv6/android_hardware_atheros_wifi_libs" />-->
+	 <!-- FM Radio -->
+    <project path="hardware/qcom/fm" name="legaCyMod/android_hardware_qcom_fm" remote="aokp" revision="jellybean" />
+    <project path="packages/apps/FM2" name="legaCyMod/android_packages_apps_FM2" remote="aokp" revision="jellybean" />
+
+    <project path="device/samsung/jenad" name="erikcas/android_device_samsung_s6500d" remote="aokp" revision="jb-mr1" />
+    <project path="device/samsung/msm7x27a-common" name="erikcas/android_device_samsung_msm7x27a-common" remote="aokp" revision="jb-mr1" />
 </manifest>
