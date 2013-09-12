@@ -331,7 +331,7 @@
   <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/ROMControl" name="erikcas/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/ROMControl" name="legacy-aokp/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
 <!--  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="jb-mr1" />-->
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
@@ -497,7 +497,7 @@
     <!-- Local projects -->
     <project path="packages/apps/Bluetooth2" name="legaCyMod/android_packages_apps_Bluetooth2" remote="aokp" revision="cm-10.1" />
 
-  <project path="kernel/samsung/msm7x27a" name="erikcas/android_kernel_samsung_msm" remote="aokp" revision="cm-10.1" />
+  <project path="kernel/samsung/msm7x27a" name="erikcas/android_kernel_samsung_msm" remote="aokp" revision="msm-3.4" />
 <!--  <project path="device/qcom/msm7x27" name="androidarmv6/android_device_qcom_msm7x27" />
   <project path="device/samsung/msm7x27-common" name="androidarmv6/android_device_samsung_msm7x27-common" />-->
   <project path="vendor/samsung" name="TheWhisp/proprietary_vendor_samsung_msm7x27a" remote="aokp" revision="jb-3.0" />
