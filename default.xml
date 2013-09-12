@@ -422,7 +422,7 @@
 
 <!--  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr1" />-->
 
-  <project path="build" name="legacy-aokp/build" remote="aokp" revision="jb-mr1" >
+  <project path="build" name="erikcas/android_build" remote="aokp" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
