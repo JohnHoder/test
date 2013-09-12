@@ -439,7 +439,7 @@
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="aokp" revision="cm-10.1" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="aokp" revision="cm-10.1" />
   <project path="hardware/broadcom/fmradio" name="androidarmv6/android_hardware_broadcom_fmradio" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/libhardware_legacy" name="erikcas/android_hardware_libhardware_legacy" remote="aokp" revision="cm-10.1" />
   <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="aokp" revision="cm-10.1" />
